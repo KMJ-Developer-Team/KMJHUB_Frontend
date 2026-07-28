@@ -6,10 +6,10 @@ export default function Navbar(){
             <h2>KMJ Hub</h2>
 
             <div className='flex  justify-between w-200'>
-                <Link to ="/"> Home</Link>
-                <Link to ="/"> Login</Link>
-                <Link to ="/"> Register</Link>
-                <Link to ="/reset-password"> Reset Password</Link>
+                <Link to ="/home"> Home</Link>
+                <Link to ="/login"> Login</Link>
+                <Link to ="/register"> Register</Link>
+                <Link to ="/forgot-password"> Forgot Password</Link>
             </div>
         </nav>
     )
