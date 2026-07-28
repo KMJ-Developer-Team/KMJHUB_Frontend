@@ -9,6 +9,7 @@ export default function Navbar(){
                 <Link to ="/"> Home</Link>
                 <Link to ="/"> Login</Link>
                 <Link to ="/"> Register</Link>
+                <Link to ="/reset-password"> Reset Password</Link>
             </div>
         </nav>
     )
