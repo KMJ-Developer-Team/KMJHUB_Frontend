@@ -12,7 +12,7 @@ export function AuthProvider({ children }) {
   });
 
   async function login(username, password) {
-    const response = await api.post("api/v1/auth/login/", {
+    const response = await api.post("/auth/login/", {
       username,
       password,
     });

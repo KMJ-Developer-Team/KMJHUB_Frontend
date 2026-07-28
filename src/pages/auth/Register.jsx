@@ -29,7 +29,7 @@ export default function Register() {
 
         try {
             const sendData = await api.post(
-                'api/v1/auth/register_user/',
+                '/auth/register_user/',
                 {
                     username,
                     email,
